@@ -18,11 +18,11 @@ I am using this project to show both:
 - show how the same process could be modernised using data analysis tools
 
 ## Project structure
-excel/ for the recreated timetable calculator
-data/ for sample input and output files
-sql/ for any SQL logic used in the modern version
-src/ for Python scripts
-docs/ for screenshots or supporting notes
+- excel/ for the recreated timetable calculator
+- data/ for sample input and output files
+- sql/ for any SQL logic used in the modern version
+- src/ for Python scripts
+- docs/ for screenshots or supporting notes
 
 ## Planned features
 
