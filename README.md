@@ -1,9 +1,11 @@
 # Study Programme Hours and Funding Band Tracker
 ## Overview
 
-This project recreates a timetable-based tool used to calculate planned annual learning hours and assign students to the correct funding band.
+This project recreates a timetable-based tool I originally built to calculate planned annual learning hours and assign students to the correct funding band.
 
-It is based on a real administrative process where staff selected subjects and sessions from a weekly timetable, and the spreadsheet automatically calculated total planned hours across the academic year.
+The original problem was that staff needed to work out how many hours each student was scheduled to study over the academic year, because funding depended on those planned hours. This was being done manually, which was slow, confusing, and difficult to check. Teachers were finding it hard to total the hours accurately, especially when students had different subjects, session lengths, and timetables.
+
+To make the process easier, I created an interactive spreadsheet where staff could select a student’s subjects and sessions from a weekly timetable using drop-down lists. The spreadsheet then automatically calculated the weekly hours, multiplied them across the academic year, and gave a total planned hours figure. This made the process much quicker, reduced confusion, and gave management a clearer view of which funding band each student fell into.
 
 I am using this project to show both:
 
