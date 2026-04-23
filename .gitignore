@@ -201,6 +201,17 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Project exports
+*.csv
+*.xlsx
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
 # Marimo
 marimo/_static/
 marimo/_lsp/
