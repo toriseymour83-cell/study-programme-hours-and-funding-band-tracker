@@ -1,13 +1,13 @@
 # Study Programme Hours and Funding Band Tracker
 ## Overview
 
-This project recreates a timetable-based tool I originally built to calculate planned annual learning hours and assign students to the correct funding band.
+This project recreates a timetable-based calculator I originally built to help staff work out students’ planned learning hours and assign them to the correct funding band.
 
-The original problem was that staff needed to work out how many hours each student was scheduled to study over the academic year, because funding depended on those planned hours. This was being done manually, which was slow, confusing, and difficult to check. Teachers were finding it hard to total the hours accurately, especially when students had different subjects, session lengths, and timetables.
+The original process was manual and time-consuming. Staff needed to total the number of hours each student would study across the academic year, but this was difficult to calculate consistently when students had different subjects, different session combinations, and different timetable patterns.
 
-To make the process easier, I created an interactive spreadsheet where staff could select a student’s subjects and sessions from a weekly timetable using drop-down lists. The spreadsheet then automatically calculated the weekly hours, multiplied them across the academic year, and gave a total planned hours figure. This made the process much quicker, reduced confusion, and gave management a clearer view of which funding band each student fell into.
+To solve this, I created an interactive timetable spreadsheet. Staff selected sessions from drop-down lists in a weekly timetable, and formulas in the background counted the number of taught sessions, applied the correct session lengths, and calculated the student’s total planned hours across the year. This made the process quicker, easier to check, and more consistent, while giving management a clearer overview of student hours, funding bands, and expected income.
 
-I am using this project to show both:
+This project shows both:
 
 - the original Excel-based operational tool
 - how I would redesign the process now using more structured data and reporting methods
