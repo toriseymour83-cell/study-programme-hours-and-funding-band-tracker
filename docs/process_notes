@@ -1,0 +1,57 @@
+# Process Notes
+
+## Original process
+
+The original study programme hours and funding band process was based on individual learning agreement documents. Each learner had their own document, with an embedded spreadsheet used to calculate planned hours.
+
+This worked for individual records, but it made the process harder to manage across multiple learners because the data was spread across separate documents.
+
+## Issues with the original approach
+
+- Planned hours were held inside individual documents rather than one structured dataset.
+- The process was harder to validate across a full cohort.
+- Funding band checks had to be reviewed manually.
+- Reporting across learners, employers, and cohorts was limited.
+- The process was difficult to scale.
+
+## Redesigned approach
+
+The redesigned version separates the process into three clearer stages:
+
+1. Input data  
+   Timetable or session plan data is stored in a structured table.
+
+2. Calculation  
+   Planned hours are calculated consistently for each learner.
+
+3. Reporting  
+   Funding bands, validation checks, and summary outputs can be produced from the structured data.
+
+## Example input files
+
+The `data` folder contains two sample input files:
+
+| File | Purpose |
+|---|---|
+| `session_plan_sample.csv` | Example learner timetable and planned session hours |
+| `funding_band_rules.csv` | Example funding band thresholds |
+
+## Expected output
+
+The output would summarise each learner’s planned annual hours and assign a funding band automatically.
+
+Example output fields:
+
+| Field | Description |
+|---|---|
+| `LearnerID` | Unique learner identifier |
+| `LearnerName` | Learner name using fake sample data |
+| `Cohort` | Academic year or programme cohort |
+| `Employer` | Employer or placement provider |
+| `TotalPlannedHours` | Total planned hours calculated from the session plan |
+| `FundingBand` | Funding band assigned using the banding rules |
+| `ValidationStatus` | Check result, for example OK or Review required |
+
+## Value of the redesigned process
+
+This structure would make the process easier to check, update, report on, and scale. It also separates the business rules from the learner data, which makes the workflow clearer and easier to maintain.
